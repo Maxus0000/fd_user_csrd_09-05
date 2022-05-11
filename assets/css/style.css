@@ -2,6 +2,10 @@
   --main-color: #17a2b8;
   text-align: center;
 }
+.container-title{
+  font-size: 32px; 
+  color: teal;
+}
 .card-wrapper{
   --img-size: 80px;
   display: inline-block;
@@ -33,14 +37,40 @@
   object-fit: cover;
   object-position: top;
 }
+
 .format-text{
   text-transform: capitalize;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
+.fullname-user{
+  min-width: 85px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  line-height: 1.1em;
+}
+.location{
+  font-size: 14px;
+  line-height: 1.1em;
+}
+.btn-wrapper{
+  min-width: 180px;
+  padding: 13px 0;
+  border-top: 1px solid rgb(192, 190, 190);
+  border-bottom: 1px solid rgb(192, 190, 190);
+  margin: 15px;
+  }
 .btn{
   max-width: 40%;
+}
+.btn_follow {
+color: aliceblue;
+background-color:rgb(1, 167, 1)
+}
+.btn_send{
+  color:aliceblue; 
+  background-color:#17a2b8;
 }
 .card-footer{
   background-color: var(--main-color);
@@ -53,12 +83,20 @@
   background-repeat: no-repeat;
   background-position: center;
 }
-.twitter{
-  background-image: url(./../icons/twitter.png);
-}
-.google{
-  background-image: url(../icons/google-plus.png);
+.user_contetn{
+  font-size: 14px;
+  line-height: 1.1em;
+
+  padding-bottom: 20px;
+
 }
 .fb{
   background-image: url(../icons/facebook.png);
 }
+.google{
+  background-image: url(../icons/google-plus.png);
+}
+.twitter{
+  background-image: url(./../icons/twitter.png);
+}
+
